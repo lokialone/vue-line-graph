@@ -6,7 +6,7 @@
   "scripts": {
     "docs": "docsify serve docs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cd examples && nuxt",
+    "dev": "cd examples && HOST=0.0.0.0 nuxt",
     "generate_examples": "cd examples && BASE_PATH=\"/projects/dafengche/weidian-dependencies-charts/examples/\" nuxt generate",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },

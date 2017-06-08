@@ -1,5 +1,10 @@
 module.exports = {
     root: true,
+    env: {
+        'node': true,
+        'browser': true,
+        'commonjs': true
+    },
     parser: 'babel-eslint',
     parserOptions: {
         sourceType: 'module'
